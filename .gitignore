@@ -1,6 +1,14 @@
 .gradle
 /build/
 !gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
 ### STS ###
 .apt_generated
@@ -18,13 +26,6 @@
 *.ipr
 /out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-gradle/wrapper/gradle-wrapper.properties
-gradle/wrapper/gradle-wrapper.jar
+### add ignore ###
 gradlew
 gradlew.bat
