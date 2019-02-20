@@ -13,6 +13,6 @@ public class WebRestController {
 
     @GetMapping("/mypage")
     public String mypage() {
-        return "mypage";
+        return "This is mypage!";
     }
 }
