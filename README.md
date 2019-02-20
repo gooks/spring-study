@@ -1,2 +1,2 @@
-# bins-hp
-홈페이지
+# spring-study
+스프링 학습용
