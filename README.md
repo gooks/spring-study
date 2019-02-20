@@ -46,17 +46,10 @@
 	3. release branch 에서 문제가 없으면 git flow를 통해 finish release하여 master branch에 merge
 
 # etc
-	1. develop branch에 개발자가 직접 커밋하는 일은 절대 없다, 관리자만 merge 할수있다.
-	2. develop branch와 release branch에서의 버그수정은 긴급한 상황이 아니기때문에 feature branch를 사용한다 
-	(master branch에서의 버그 수정은 긴급한 상황이기때문에 hotfix branch 생성하여 수정)
-    3. 앞으로 branch 생성명칭은 [레드마인번호] [레드마인제목] 으로 생성한다
-    4. commit message prefix (추후 반영 예정..)
-        - add :  신규파일, 신규코드등 추가
-        - modify : 파일명수정, 버그가 아닌 코드수정(개선, 기능변경등..)
-        - fix : 버그 수정
-        - clean : 코드 리팩토링
-        - remove : 파일삭제, 코드삭제
-    5. release branch 관련
-        - 명칭 생성 규칙: release_날짜-시간 (ex: release_2019-01-10_11-45)
-        - jenkins 빌드시 현재 배포할 브랜치의 명칭을 파라미터로 지정 (ex: release_2019-01-10_11-45)
+    commit message prefix
+    - add :  신규파일, 신규코드등 추가
+    - modify : 파일명수정, 버그가 아닌 코드수정(개선, 기능변경등..)
+    - fix : 버그 수정
+    - clean : 코드 리팩토링
+    - remove : 파일삭제, 코드삭제
         
