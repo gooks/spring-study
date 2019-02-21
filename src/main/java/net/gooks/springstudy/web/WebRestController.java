@@ -8,11 +8,11 @@ public class WebRestController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "HelloWorld!!!";
+        return "HelloWorld";
     }
 
     @GetMapping("/mypage")
     public String mypage() {
-        return "This is mypage!!!!";
+        return "This is mypage";
     }
 }
