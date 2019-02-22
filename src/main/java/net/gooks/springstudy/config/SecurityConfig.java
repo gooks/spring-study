@@ -22,6 +22,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/mypage").authenticated()
                 .antMatchers("/**").permitAll()
-        ;
+                .antMatchers("/h2/**").permitAll();
+        http.csrf().disable();
+        http.headers().frameOptions().disable();
     }
 }

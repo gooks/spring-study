@@ -1,7 +1,4 @@
-package net.gooks.springstudy.domain;
-
-import net.gooks.springstudy.domain.posts.Posts;
-import net.gooks.springstudy.domain.posts.PostsRepository;
+package net.gooks.springstudy.domain.posts;
 
 import org.junit.After;
 import org.junit.Test;
@@ -12,9 +9,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
 
+import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-import static org.hamcrest.core.Is;
-
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
