@@ -1,7 +1,5 @@
 .gradle
 /build/
-!gradle/wrapper/gradle-wrapper.jar
-!gradle/wrapper/gradle-wrapper.properties
 
 ### NetBeans ###
 /nbproject/private/
@@ -27,5 +25,3 @@
 /out/
 
 ### add ignore ###
-gradlew
-gradlew.bat
